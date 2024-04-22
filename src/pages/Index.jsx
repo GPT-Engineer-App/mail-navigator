@@ -27,7 +27,7 @@ const Index = () => {
         </VStack>
       </Box>
       <Flex mt={10} alignItems="center" justifyContent="space-between">
-        <Button leftIcon={<FaInbox />} colorScheme="teal" variant="solid">
+        <Button leftIcon={<FaInbox />} colorScheme="teal" variant="solid" onClick={() => navigate('/inbox')}>
           Inbox
         </Button>
         <Button leftIcon={<FaStar />} colorScheme="yellow" variant="solid">
